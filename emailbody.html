@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>msg</title>
+</head>
+<body>
+<center><b>Hi, <?php if (isset($_SESSION['FIRST_NAME'])){ echo $_SESSION['FIRST_NAME']; }?></b><br><br>
+Thanks for using To-Do List<br>
+Your assigned task is <?php echo row['optask']; ?><br>
+Task's start date and time is <?php echo row['opdtime']; ?><br>
+Task's due date and time is <?php echo row['opedtime']; ?><br>
+Task's priority is <?php echo row['optpriority']; ?><br>
+Task's status is <?php echo row['optstatus']; ?><br>
+</center>
+</body>
+</html>

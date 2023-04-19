@@ -1,0 +1,40 @@
+.main {
+  background: #f8f8f8;
+  padding: 150px 0;
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.logoutLblPos{
+  position: fixed;
+  right: 10px;
+  top: 5px;
+}
+header{
+  background-image: url(listing task.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg{
+  background-image: url(list planning.jpg);
+  height: 620px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
